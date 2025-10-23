@@ -1,1 +1,61 @@
 /* место для вашего кода */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+
+    /*TODO: удалить цвет фона*/
+    background-color: antiquewhite;
+}
+
+.header-links-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+    /* justify-content: space-between; */
+    list-style-position: inherit;
+}
+
+.header-links-list-item {
+    justify-self: center;
+}
+
+/*делает первую ссылку без кружочка*/
+.header-links-list-item-no-bullit {
+    list-style: none;
+}
+
+/*делает первую ссылку без подчеркивания*/
+.header-links-list-item-no-bullit a{
+    text-decoration: none;
+}
+
+.header-link-active {
+    text-decoration: underline solid black 1px;
+    text-underline-offset: 4px;
+}
+
+.header-logo-image {
+    display: block;
+    width: 148px;
+}
+
+.header-address {
+    max-width: 240px;
+    height: 98px;
+    justify-self: end;
+    
+}
+
+.header-address a{
+    /* text-decoration: none; */
+    text-decoration: underline solid black 1px;
+    text-underline-offset: 4px;
+}
+
+.address-number {
+    /* text-decoration: underline;
+    text-underline-offset: 1px; */
+}
