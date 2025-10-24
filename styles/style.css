@@ -7,7 +7,7 @@
     padding: 92px 50px 96px 50px;
 
     /*TODO: удалить цвет фона*/
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .header-links-list {
@@ -28,7 +28,7 @@
 }
 
 /*делает первую ссылку без подчеркивания*/
-.header-links-list-item-no-bullit a{
+.header-links-list-item-no-bullit a {
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
     
 }
 
-.header-address a{
+.header-address a {
     /* text-decoration: none; */
     text-decoration: underline solid black 1px;
     text-underline-offset: 4px;
@@ -59,3 +59,89 @@
     /* text-decoration: underline;
     text-underline-offset: 1px; */
 }
+
+.cover {
+    position: relative;
+
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+
+.cover-title {
+    position: relative;
+    width: 100%;
+    font-weight: 700;
+    font-size: 100px;
+    width: 1000px;
+    height: 385px;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+    letter-spacing: 16px;
+    margin: 0 auto;
+    
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 0.6);
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+}
+
+.aligned-text {
+    display: block;
+    text-align: left;
+}
+
+.aligned-text-center {
+    text-align: center;
+}
+
+.aligned-text-right {
+    text-align: right;
+}
+
+
+
+
+.cover-description {
+    align-items: center;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.letter-spacing-extended {
+    word-spacing: 16px;
+}
+
+.bet-button {
+    width: 256px;
+    padding-block: 0;
+    padding-inline: 0;
+    border-width: 1px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
