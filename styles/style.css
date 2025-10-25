@@ -62,10 +62,6 @@
     text-underline-offset: 4px;
 }
 
-.address-number {
-    
-}
-
 .cover {
     position: relative;
     background-image: url(../images/cover.jpg);
@@ -83,7 +79,7 @@
     font-weight: 700;
     font-size: 100px;
     width: 1000px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #FFFFFF;
     letter-spacing: 26px;
     margin: 0 auto;
@@ -121,8 +117,8 @@
     
 }
 
-.cover-description-text{
-    text-transform: uppercase; 
+.cover-description-text {
+    text-transform: uppercase;
     font-size: 22px;
     line-height: 28px;
     font-weight: 500;
