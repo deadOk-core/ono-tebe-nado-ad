@@ -56,8 +56,7 @@
 }
 
 .address-number {
-    /* text-decoration: underline;
-    text-underline-offset: 1px; */
+    
 }
 
 .cover {
@@ -73,31 +72,34 @@
 
 .cover-title {
     position: relative;
-    width: 100%;
+    
     font-weight: 700;
     font-size: 100px;
     width: 1000px;
-    height: 385px;
+    /* height: 385px; */
     text-transform: uppercase; 
     color: #FFFFFF;
-    letter-spacing: 16px;
+    letter-spacing: 28px;
     margin: 0 auto;
-    
+    padding-top: 165px;
+    padding-bottom: 106px;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
     background-color: rgb(0 0 0 / 0.6);
-    /* z-index: 1; */
-    /* position: absolute; */
-    /* top: 0;
-    left: 0; */
 }
 
 .aligned-text {
+    position: relative;
     display: block;
     text-align: left;
+    /* line-height: 114.99999999999999%; */
+    /* max-height: 100%; */
+
+    /*TODO: убрать узменилась ли высота блока у оно тебе надо*/
+    line-height: 114.9%;
+    
+    padding-bottom: 20px;
 }
 
 .aligned-text-center {
@@ -106,26 +108,33 @@
 
 .aligned-text-right {
     text-align: right;
+    justify-content: center;
+    padding-bottom: 0;
 }
 
-
-
-
 .cover-description {
+    display: flex;
     align-items: center;
     color: #FFFFFF;
-    text-transform: uppercase; 
-    font-size: 22px;
-    line-height: 28px;
-    display: flex;
+    
+    
     justify-content: space-between;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
+    
+}
+
+.cover-description-text{
+    text-transform: uppercase; 
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
 }
 
 .letter-spacing-extended {
-    word-spacing: 16px;
+    word-spacing: 22px;
 }
 
 .bet-button {
