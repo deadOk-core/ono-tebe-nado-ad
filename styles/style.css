@@ -181,7 +181,7 @@
     flex-wrap: wrap;
 }
 
-.lots-card-list-item { 
+.lots-card-list-item {
     width: 334px;
     min-height: 596px;
     display: flex;
@@ -195,13 +195,13 @@
 }
 
 .card {
-    height: 100%;
+    /* height: 100%; */
     height: 596px;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -216,7 +216,7 @@
     z-index: 1;
 }
 
-.centered-elements{
+.centered-elements {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,7 +338,7 @@
     padding-bottom: 24px;
 }
 
-.about-text:last-child{
+.about-text:last-child {
     padding-bottom: 0;
 }
 
@@ -356,13 +356,13 @@
 
 /*секция с навигацией*/
 
-.footer-menu {
+/* .footer-menu {
     
-}
+} */
 
-.nav {
+/* .nav {
 
-}
+} */
 
 .footer-menu-list {
     list-style: none;
@@ -380,7 +380,7 @@
 }
 
 .footer-menu-link {
-    text-decoration: underline solid black 1px; ;
+    text-decoration: underline solid black 1px;
 }
 
 .footer-menu-link-active {
@@ -399,15 +399,15 @@
 }
 
 .footer-social-list-item {
-width: 48px;
+    width: 48px;
     height: 48px;
 }
 
-.footer-social-link {
+/* .footer-social-link {
 
 }
 
 .footer-social-icon {
-    /* width: 48px;
-    height: 48px; */
-}
+    width: 48px;
+    height: 48px;
+} */
