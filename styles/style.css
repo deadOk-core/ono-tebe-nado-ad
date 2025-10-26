@@ -90,9 +90,11 @@
     position: relative;
     font-weight: 700;
     font-size: 100px;
+    font-style: bold;
     width: 1000px;
     text-transform: uppercase;
     color: #FFFFFF;
+    /*исправить леттер спейсинг*/
     letter-spacing: 26px;
     margin: 0 auto;
     padding-top: 165px;
@@ -186,7 +188,7 @@
     min-height: 596px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .card-link {
@@ -269,7 +271,7 @@
     font-size: 20px;
     letter-spacing: 100%;
     text-decoration: underline solid black 1px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 40px;
     /* bottom: 0;
     left: 40px; */
@@ -281,8 +283,8 @@
     width: 1052px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 334px 1fr ;
-    
+    grid-template-columns: 359px 1fr ;
+    /* gap: 72px; */
     position: relative;
     margin-bottom: 180px;
 }
@@ -294,6 +296,7 @@
 
 .about-column-logo {
     /* position: relative; */
+    
     padding-top: 35px;
     justify-items: center;
 }
@@ -303,6 +306,7 @@
     justify-items: center; */
 
     /* position: absolute; */
+    /* width: 693px; */
     padding-top: 133px;
     
 }
@@ -332,6 +336,7 @@
 }
 
 .about-text {
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -366,17 +371,12 @@
 
 .footer-menu-list {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .footer-menu-list-item {
-    /* justify-content: center; */
     font-size: 18px;
     line-height: 100%;
+    text-align: center;
 }
 
 .footer-menu-link {
