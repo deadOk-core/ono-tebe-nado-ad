@@ -83,7 +83,6 @@
     position: relative;
     font-weight: 700;
     font-size: 100px;
-    font-style: bold;
     width: 1000px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -161,7 +160,6 @@
 }
 
 .lots-heading {
-    font-style: bold;
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
@@ -231,7 +229,6 @@
 .card-title {
     width: 254px;
     font-weight: 700;
-    font-style: bold;
     color: #FFFFFF;
     font-size: 22px;
     line-height: 120%;
@@ -253,7 +250,6 @@
 
 .lots-look-more-link {
     font-size: 20px;
-    letter-spacing: 100%;
     text-decoration: underline solid black 1px;
     padding-left: 40px;
 }
@@ -295,7 +291,6 @@
 
 .about-title {
     font-weight: 700;
-    font-style: bold;
     font-size: 40px;
     line-height: 100%;
     text-transform: uppercase;
