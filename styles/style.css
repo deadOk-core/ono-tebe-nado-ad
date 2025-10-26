@@ -261,7 +261,7 @@
     width: 1052px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 359px 1fr;
+    grid-template-columns: 334px 1fr;
     position: relative;
     margin-bottom: 180px;
 }
