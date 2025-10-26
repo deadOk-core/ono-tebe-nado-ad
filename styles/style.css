@@ -252,6 +252,7 @@
     font-size: 20px;
     text-decoration: underline solid black 1px;
     padding-left: 40px;
+    padding-bottom: 2px;
 }
 
 /*блок about*/
@@ -272,6 +273,7 @@
 
 .about-column-text {
     padding-top: 133px;
+    padding-bottom: 13px;
 }
 
 .about-logo {
@@ -302,10 +304,12 @@
     font-size: 20px;
     line-height: 24px;
     padding-bottom: 24px;
+    padding-right: 5px;
 }
 
 .about-text:last-child {
-    padding-bottom: 0;
+    padding-bottom: 0px;
+    padding-right: 0;
 }
 
 /*блок footer*/
@@ -325,8 +329,9 @@
 
 .footer-menu-list-item {
     font-size: 18px;
-    line-height: 100%;
+    line-height: 120%;
     text-align: center;
+    font-weight: 400;
 }
 
 .footer-menu-link {
